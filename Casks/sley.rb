@@ -14,22 +14,22 @@ cask "sley" do
   on_macos do
     on_intel do
       url "https://github.com/indaco/sley/releases/download/v#{version}/sley_Darwin_x86_64.tar.gz"
-      sha256 "c29361c8e8f054a7b555095cd7daac3642736d93c2c506087ea547cec687f781"
+      sha256 "c5171ba9fe0899607888ce1a15916a1fa5e1b725691db67b351c845fe4fb96c0"
     end
     on_arm do
       url "https://github.com/indaco/sley/releases/download/v#{version}/sley_Darwin_arm64.tar.gz"
-      sha256 "4a0fd0418888d7ac8ca4f4cc676b9993df0e296ac8c8d1285c4fe09289718764"
+      sha256 "3acd368230eb61cc34534945e58131607861d28bf50dfe712450d8638719bf3b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/indaco/sley/releases/download/v#{version}/sley_Linux_x86_64.tar.gz"
-      sha256 "58530ecddd2c01c22b037146274930f8561188f4fb7248b580b309299838aac0"
+      sha256 "68233329d69074038255778e86dea80026ba4aa9d825efa68b4ed3945b2485cf"
     end
     on_arm do
       url "https://github.com/indaco/sley/releases/download/v#{version}/sley_Linux_arm64.tar.gz"
-      sha256 "db013481634b33eeef641b5b8a8d6fdece99e1eac38ee4acf213a557313f448c"
+      sha256 "61dd8200ceb69ec70c02d8a6e4d4eaca04c18c828186875fcdf8001a32999dce"
     end
   end
 
