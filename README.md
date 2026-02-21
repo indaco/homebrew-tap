@@ -4,9 +4,10 @@ Homebrew tap for [indaco](https://github.com/indaco) projects.
 
 ## Available Packages
 
-| Package       | Description                                                       |
-| ------------- | ----------------------------------------------------------------- |
-| [sley](#sley) | A CLI tool for managing semantic versioning using a .version file |
+| Package         | Description                                                                           |
+| --------------- | ------------------------------------------------------------------------------------- |
+| [sley](#sley)   | A CLI tool for managing semantic versioning using a .version file                     |
+| [tempo](#tempo) | A CLI tool for managing assets and scaffolding components in templ-based Go projects. |
 
 ---
 
@@ -15,6 +16,14 @@ Homebrew tap for [indaco](https://github.com/indaco) projects.
 CLI for semantic versioning using a simple .version file. Language-agnostic with plugins for git tagging, changelog generation, versioning policies and more.
 
 **GitHub:** <https://github.com/indaco/sley>
+
+---
+
+## tempo
+
+A CLI tool for managing assets and scaffolding components in templ-based Go projects.
+
+**GitHub:** <https://github.com/indaco/tempo>
 
 ---
 
