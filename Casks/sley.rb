@@ -3,7 +3,7 @@ cask "sley" do
   name "sley"
   desc "CLI for semantic versioning using a simple .version file. Language-agnostic with plugins for git tagging, changelog generation, versioning policies and more."
   homepage "https://github.com/indaco/sley"
-  version "0.11.2"
+  version "0.11.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "sley" do
   on_macos do
     on_intel do
       url "https://github.com/indaco/sley/releases/download/v#{version}/sley_Darwin_x86_64.tar.gz"
-      sha256 "9f1811bce979c53701b6b30048282f3ad0651a117e0683dc14a3f195ade2d6eb"
+      sha256 "2d1a33d78838b9d2d7e177ae303b78e876ca03358754c92afd91e2cf9282fd6e"
     end
     on_arm do
       url "https://github.com/indaco/sley/releases/download/v#{version}/sley_Darwin_arm64.tar.gz"
-      sha256 "f88f3a3e947df51c8b728ae2ab8190c3df5eb12c61e59127d22c4ac60ccc6360"
+      sha256 "41723e630dba2052c6cabab12e8decbe4042eeab1d966960d8efbff920c5d1e0"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/indaco/sley/releases/download/v#{version}/sley_Linux_x86_64.tar.gz"
-      sha256 "4e9e3d465e2dad07a1ae0cf33761d44544fbca1b0b983e5cb4c20ea82cd6f8db"
+      sha256 "c93fba624858855ec2847aaef947cd0967e7fe5c5753ef72ed4f2d1638448f9f"
     end
     on_arm do
       url "https://github.com/indaco/sley/releases/download/v#{version}/sley_Linux_arm64.tar.gz"
-      sha256 "f3395d4d8caa02101ce12557f95ffa520bbfb92949f713911283aaf209b8763f"
+      sha256 "e57f11f2306246ff8663a16d1f888e16ec04ac5da9be68703c56370d2634031b"
     end
   end
 
