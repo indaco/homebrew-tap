@@ -4,7 +4,7 @@ cask "malt" do
 
   on_macos do
     url "https://github.com/indaco/malt/releases/download/v#{version}/malt_#{version}_darwin_all.tar.gz"
-    sha256 "4a243f067ab2b7da3b965c2f47672031552f59c6498c7b792a8f0c19c120568a"
+    sha256 "ec971375a59565c22c50ada87fad4f20bc22e2c67448844261ef866685eb27ef"
   end
 
   name "malt"
