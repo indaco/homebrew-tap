@@ -6,15 +6,15 @@ Homebrew tap for [indaco](https://github.com/indaco) projects.
 
 | Package         | Description                                                                           |
 | --------------- | ------------------------------------------------------------------------------------- |
-| [malt](#malt)   | A fast, Homebrew-compatible package manager for macOS                                 |
-| [sley](#sley)   | A CLI tool for managing semantic versioning using a .version file                     |
+| [malt](#malt)   | A lightweight Homebrew-compatible client with a native TUI.                           |
+| [sley](#sley)   | A CLI tool for managing semantic versioning using a .version file.                    |
 | [tempo](#tempo) | A CLI tool for managing assets and scaffolding components in templ-based Go projects. |
 
 ---
 
 ## malt
 
-A fast, Homebrew-compatible package manager for macOS
+Homebrew's whole ecosystem, none of its weight - a single Zig binary with native post_install and a themeable TUI & CLI
 
 **GitHub:** <https://github.com/indaco/malt>
 
