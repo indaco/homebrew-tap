@@ -6,10 +6,10 @@ cask "malt" do
     end
   end
 
-  version "0.25.2"
+  version "0.25.3"
 
   on_macos do
-    sha256 "5354e386b48735240d4afd8a409b48ebd6821f17967533dda76f0e8bdd494976"
+    sha256 "bef47842b0b38ecee8d5bedc5a183d9324d5a5bfae02142f14ee66fd25a8acbd"
     url "https://github.com/indaco/malt/releases/download/v#{version}/malt_#{version}_darwin_all.tar.gz"
   end
 
@@ -20,6 +20,7 @@ cask "malt" do
   livecheck do
     skip "Auto-generated on release."
   end
+  depends_on :macos
 
   binary "malt"
   binary "mt"
